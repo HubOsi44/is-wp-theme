@@ -342,6 +342,7 @@ if (is_array($hero_bg) && !empty($hero_bg['url'])) {
         </div>
     </section>
 
+    <?php /* 
     <!-- 9. Dlaczego zostałem Inwestorem -->
     <section class="py-5">
         <div class="container">
@@ -411,9 +412,9 @@ if (is_array($hero_bg) && !empty($hero_bg['url'])) {
             </div>
         </div>
     </section>
-
+    */ ?>
     <!-- 10. Kontakt (istniejąca sekcja) -->
-    <section class="py-5 bg-gray-light">
+    <section class="py-5">
         <?php if ($contact_cnt) : ?>
             <?php echo wp_kses_post($contact_cnt); ?>
         <?php endif; ?>
