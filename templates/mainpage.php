@@ -70,7 +70,7 @@ if (is_array($hero_bg) && !empty($hero_bg['url'])) {
             <div class="row g-0">
                 <div class="col-lg-6">
                     <div class="mainpage-hero__media" style="<?php echo $hero_bg_url ? "background-image: url('" . esc_url($hero_bg_url) . "')" : ''; ?>">
-                        <img src="<?php echo esc_url(home_url('/wp-content/uploads/2026/03/logos.png')); ?>" alt="Logotypy partnerów" class="mainpage-hero__corner-logo">
+                        <img src="<?php echo esc_url(home_url('/wp-content/uploads/2026/08/logos.png')); ?>" alt="Logotypy partnerów" class="mainpage-hero__corner-logo">
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
